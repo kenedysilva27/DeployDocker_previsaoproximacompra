@@ -1,6 +1,7 @@
 # **Estudo de Caso: Previsão do Valor Gasto por Clientes após uma Campanha de Marketing**
 
-O objetivo deste estudo de caso é construir um modelo de regressão linear para prever o valor gasto por clientes na primeira compra após uma campanha de marketing cuja ação é o disparo de e-mail bem como a efetividade desta campanha para a a empresa. 
+O objetivo do estudo de caso é construir um modelo de regressão linear para prever o valor gasto por clientes na primeira compra após uma campanha de marketing cuja ação é o disparo de e-mails e assim checar a efetividade da campanha para a a empresa. 
+
 A base de dados contém informações coletadas durante a campanha, e usaremos essas informações para fazer previsões do valor gasto.
 
 Base de Dados
@@ -14,10 +15,11 @@ N° de E-mails Abertos: Número de e-mails da campanha que o cliente abriu.
 Tempo no Site (min): Tempo total (em minutos) que o cliente passou no site após a campanha.
 Valor Gasto: Valor gasto pelo cliente na primeira compra após a campanha.
 
-Metodologia
-Modelagem: Utilização de regressão linear para construir o modelo preditivo.
+Algoritmo escolhido para resolver o problema:
+Utilização de regressão linear para construir o modelo preditivo.
 
-Avaliação do Modelo: Métricas como R² Score e Erro Médio Absoluto (EMA) foram utilizadas para avaliar o desempenho do modelo.
+Avaliação do Modelo: 
+Métricas como R² Score e Erro Médio Absoluto (EMA) foram utilizadas para avaliar o desempenho do modelo.
 
 Resultados
 R² Score: Mede a proporção da variabilidade nos dados que é explicada pelo modelo. Em torno de 0,81
