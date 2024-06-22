@@ -1,4 +1,4 @@
-##Estudo de Caso: Previsão do Valor Gasto por Clientes após uma Campanha de Marketing##
+# **Estudo de Caso: Previsão do Valor Gasto por Clientes após uma Campanha de Marketing**
 
 Objetivo
 O objetivo deste estudo de caso é construir um modelo de regressão linear para prever o valor gasto por clientes na primeira compra após uma campanha de marketing cuja ação é o disparo de e-mail bem como a efetividade desta campanha para a a empresa. 
