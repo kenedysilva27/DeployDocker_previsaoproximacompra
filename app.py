@@ -45,7 +45,7 @@ modelo.fit(X_train, y_train)
 def realizar_predicao(idade, genero, renda_mensal, nu_emails_enviados, nu_emails_abertos, tempo_no_site):
     novo_cliente = scaler.transform([[idade, genero, renda_mensal, nu_emails_enviados, nu_emails_abertos, tempo_no_site]])
     predicao_valor_gasto = modelo.predict(novo_cliente)[0]
-    return predicao_valor_gasto
+    return realizar_predicao
 
 y_pred = modelo.predict(X_test)
 r2 = r2_score(y_test, y_pred)
